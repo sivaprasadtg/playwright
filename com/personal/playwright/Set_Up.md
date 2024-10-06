@@ -1,5 +1,5 @@
 ## Playwright with JavaScript. (Run using PowerShell (as Administrator))
-**Note**: When powershell is opened, it will load  `C:\WINDOWS\system32>`! DO NOT use  `**system32**` folder for creating and working on projects!
+**Note**: When powershell is opened, it will load  `C:\WINDOWS\system32>`! DO NOT use  `system32` folder for creating and working on projects!
 
 ### 1.a) Install NVM exe
 
