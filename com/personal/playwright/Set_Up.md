@@ -116,18 +116,9 @@ notepad example.test.js
 ```
 
 **Sample code:**
-```
-const { chromium } = require('playwright'); // Import Playwright
 
-(async () => {
-    // Launch a new browser instance
-    const browser = await chromium.launch({ headless: false }); // Set headless to false to see the browser
-    const page = await browser.newPage(); // Open a new page
-    await page.goto('https://example.com'); // Go to a webpage
-    await page.screenshot({ path: 'example.png' }); // Take a screenshot
-    await browser.close(); // Close the browser
-})();
-```
+`com/personal/playwright/learning/test`
+
 The code will launches a new browser instance. Opens a new page (or tab) in the browser. Navigates to a URL. And then captures a screenshot.
 When its all done, it closes the browser.
 
